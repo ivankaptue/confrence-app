@@ -12,15 +12,15 @@ import javax.sql.DataSource;
 @Configuration
 public class PersistenceConfiguration {
 
-    @Bean
-    public DataSource dataSource() {
-        var builder = DataSourceBuilder.create();
-        builder
-            .url("jdbc:postgresql://localhost:5432/conference_app")
-            .username("postgres")
-            .password("root");
-        System.out.println("Custom datasource has been initialized");
-        return builder.build();
-    }
+//    @Bean
+//    public DataSource dataSource() {
+//        var builder = DataSourceBuilder.create();
+//        builder
+//            .url("jdbc:postgresql://localhost:5432/conference_app")
+//            .username("postgres")
+//            .password("root");
+//        System.out.println("Custom datasource has been initialized");
+//        return builder.build();
+//    }
 
 }
